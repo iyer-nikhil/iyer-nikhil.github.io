@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Nick S. Iyer 
+name: Nick S. Iyer
 
 # Short bio or description (displayed in the header)
 description: Data Scientist in the making
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: nicksiyer
   instagram: @toomuchgolf
-  linkedin: https://www.linkedin.com/in/nicksiyer/
+  linkedin:https://www.linkedin.com/in/nicksiyer/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: iyernikhil
