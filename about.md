@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a budding data scientist currently doing a bootcamp at Metis!
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+If you have any questions about this page, please feel free to email me at:
+[nick.s.iyer@gmail.com](mailto:nick.s.iyer@gmail.com)
