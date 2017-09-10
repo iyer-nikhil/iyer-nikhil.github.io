@@ -75,13 +75,13 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Alembic" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "This site is dedicated to the data science blog for Nick S. Iyer. All rights reserved." # Site description and default description, also used in jekyll-seo-tag
 url: "https://nicksiyer.me" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/nicksiyer/nicksiyer.github.io"
-email: "me@daviddarnes.com"
+email: "nick.s.iyer@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "https://avatars3.githubusercontent.com/u/13758145?v=3&s=460" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
