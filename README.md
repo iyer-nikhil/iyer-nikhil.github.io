@@ -1,1 +1,2 @@
-# My website repo. Site design based of Alembic by David Darnes
+### My website repo. 
+Site design based off Alembic by David Darnes under MIT License
