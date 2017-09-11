@@ -1,10 +1,10 @@
 ---
-title: About
+title: Site Under Construction
 feature_text: |
   # Nick S. Iyer 
   My personal blog for all things data science
-feature_image: ![](/images/artistic-neural-network-3-1.jpg)
-excerpt: "This site is currently under construction. Please check back later for more to come :)"
+feature_image: !(/images/artistic-neural-network-3-1.jpg)
+excerpt: "Please check back later. Thank you for visiting"
 ---
 
 This site is currently under construction. Please check back later for more to come :)
