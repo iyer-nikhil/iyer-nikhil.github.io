@@ -86,13 +86,13 @@ avatarurl: "https://avatars3.githubusercontent.com/u/13758145?v=3&s=460" # Uses 
 # 8. Site navigation
 navigation_header:
   Home: /
-  Elements: /elements/
-  Blog: /blog/
-  Categories: /categories/
-  Search: /search/
+  # Elements: /elements/
+  # Blog: /blog/
+  # Categories: /categories/
+  # Search: /search/
 
 navigation_footer:
-  Created by David Darnes: https://darn.es
+  Alembic Theme used under MIT Open Source License: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/nicksiyer
