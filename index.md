@@ -3,7 +3,7 @@ title: Site Under Construction
 feature_text: |
   # Nick S. Iyer 
   My personal blog for all things data science
-feature_image: "https://unsplash.it/1300/400?image=1031"
+feature_image: "https://unsplash.it/1300/400?image=989"
 excerpt: "Please check back later. Thank you for visiting"
 ---
 
