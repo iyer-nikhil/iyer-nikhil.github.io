@@ -1,5 +1,5 @@
 ---
-title: Site Under Construction
+title: About
 feature_text: |
   # Nick S. Iyer 
   My personal blog for all things data science
