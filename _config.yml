@@ -62,7 +62,7 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://unsplash.it/1300/400?image=1067"
+    feature_image: "https://unsplash.it/1300/400?image=791"
 
 # 6. Jekyll collections settings
 defaults:
@@ -92,7 +92,7 @@ navigation_header:
   # Search: /search/
 
 navigation_footer:
-  Resume Link: https://resume.creddle.io/resume/fhndwyeduw2
+  Link to Resume: https://goo.gl/suT6LU
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/nicksiyer
