@@ -3,7 +3,7 @@ title: About
 feature_text: |
   # Nick S. Iyer 
   My personal blog for all things data science
-feature_image: !(/images/artistic-neural-network-3-1.jpg)
+feature_image: "https://unsplash.it/1300/400?image=1029"
 excerpt: "Please check back later. Thank you for visiting"
 ---
 
