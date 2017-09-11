@@ -1,9 +1,9 @@
 ---
 title: About
 feature_text: |
-  ## Nick S. Iyer 
+  # Nick S. Iyer 
   My personal blog for all things data science
-feature_image: "https://github.com/nicksiyer/nicksiyer.github.io/blob/master/images/artistic-neural-network-3-1.jpg"
+feature_image: ![](/images/artistic-neural-network-3-1.jpg)
 excerpt: "This site is currently under construction. Please check back later for more to come :)"
 ---
 
