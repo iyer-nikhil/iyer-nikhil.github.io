@@ -43,3 +43,4 @@ So that helped actually get me pretty far, for starters, in the competition. Aft
    
 I did do some slight tweaking to the model's parameters as you can see it took me 4 tries to eventually place here, but hey, its not a bad start!
 
+Stay tuned for more!
