@@ -1,33 +1,29 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-	<head>
-		<!-- General meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-		{% if page.indexing == false %}
-			<meta name="robots" content="noindex">
-		{% endif %}
+    {% if page.title != 'index' %}
+        {% include head.html %}
+    {% else %}
+        {% include index_head.html %}
+    {% endif %}
 
-		{% if page.collectionpage %}
-			{% seo title=false %}
+<body id="page-top" class="landing-page">
 
-			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<title>{{ collectiondata.title }} - {{ site.title }}</title>
-			<meta property="og:title" content="{{ collectiondata.title }}">
-			<meta name="description" content="{{ collectiondata.description }}">
-			<meta property="og:description" content="{{ collectiondata.description }}">
-		{% else %}
-			{% seo %}
-		{% endif %}
+    {% if page.title != 'index' %}
+        {% include blog_header.html %}
+    {% endif %}
 
-    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    {{ content }}
 
-		{% if site.avatarurl %}{% include site-favicons.html %}{% endif %}
-	</head>
-	<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-		{% include site-icons.svg %}
+    {% if page.title != 'index' %}
+        {% include foot.html %}
+    {% else %}
+        {% include index_foot.html %}
+    {% endif %}
 
-		{{ content }}
-
-	</body>
+</body>
 </html>

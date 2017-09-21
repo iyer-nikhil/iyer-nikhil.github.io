@@ -1,0 +1,21 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Zillow Prize - Veracity of Real Estate
+  # i18n: jalpc
+  url: http://nicksiyer.me/Home/html/
+  img: /static/assets/img/landing/zillowlogo.png
+  desc: This project is based around the Zillow competion on property estimates
+
+- name:
+  # i18n: cpython
+  gh_user: python
+  repo: cpython
+  img: /static/assets/img/landing/python.png
+  desc: This project is other's project. I use another request to get repo's information.
+
+- name: Google
+  # i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: This is another project.
