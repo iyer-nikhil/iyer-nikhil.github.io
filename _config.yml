@@ -1,17 +1,17 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Nick S. Iyer | Home
+title: Nick S. Iyer
 description: A journey through data science
-keywords: Nick,Iyer,blog,Jekyll,github,gh-pages,nicksiyer
+keywords: Nick,Iyer,blog,Jekyll,github,gh-pages,nicksiyer, Nick S. Iyer, nikhil, iyer
 #baseurl: # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-# url: http://nicksiyer.me  # url should be 'http://<github_username>.github.io/homepage' as before
-url: http://127.0.0.1:4000
-img_path: /static/assets/img/landing/avatarr.jpg  # url should be '/homepage/static/assets/img/blog' as before
+url: http://nicksiyer.me  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /static/assets/img/landing/  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author: # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
+  name: nicksiyer  # Be used at blog posts' author.
   first_name: Nick S.  # Be used at index page about me section.
   last_name: Iyer  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatarr.jpg  # upload your avatar at directory and edit it.

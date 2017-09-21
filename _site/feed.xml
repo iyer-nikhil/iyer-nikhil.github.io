@@ -1,70 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nick S. Iyer | Data Scientist</title>
+    <title>Nick S. Iyer</title>
     <description>A journey through data science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Sep 2017 20:28:43 -0400</pubDate>
-    <lastBuildDate>Wed, 20 Sep 2017 20:28:43 -0400</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2017 13:36:42 -0400</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2017 13:36:42 -0400</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
-        <title>3 Steps (2 minutes) to Setup Your Personal Website with Jalpc</title>
-        <description>&lt;p&gt;Everyone wants to have a personal website, you can display your infomation to public, post blogs and make friends. If you are CS engineer, haveing a self website will benefit your interview.&lt;/p&gt;
+        <title>Zillow Prize - The Veracity of Real Estate</title>
+        <description>&lt;p&gt;When I initially joined a data science bootcamp, my dream was to compete in a &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; competition. For those of you that are ufamiliar with what that is, &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; hosts data science competitions for prizes if you are able to score the lowest on a particular benchmark given.&lt;/p&gt;
 
-&lt;p&gt;So, if you like this website &lt;a href=&quot;https://jarrekk.github.io/Jalpc/&quot;&gt;https://jarrekk.github.io/Jalpc/&lt;/a&gt; or &lt;a href=&quot;http://www.jarrekk.com&quot;&gt;http://www.jarrekk.com&lt;/a&gt; and are willing to have a website, here is a way to build your website in 3 steps(2 minutes). Following are steps to setup your website(make sure you have basic knowledge of &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, if you want to custom css/js &lt;a href=&quot;https://github.com/npm/npm&quot;&gt;NPM&lt;/a&gt; is needed):&lt;/p&gt;
+&lt;p&gt;The grades for the competition allow you to compete against others for a chance at some serious prize money and Zillow just put out a $1 million dollar prize for someone who could use variables on a given property and beat their current estimate algorithm on pricing.&lt;/p&gt;
+
+&lt;p&gt;In order to get there though, they have a few barriers to entry:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In order to compete in that leg, there is an initial leg of the tournament where only the top 100 advance. The goal of this first leg is to estimate how far off Zillow is at computing an estimate for a given property.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Half the data hasn’t even come out yet. They released 2016 data but ask you to predict the remaining months of 2017 - October, November, and December, for estimates and relative sale prices and will only release this at the beginning of October&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once that is completed, if your model turns out to be in the top 100, then you have yourself a shot at their $1 million dollar prize!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Seems simple enough right?&lt;/p&gt;
+
+&lt;p&gt;So I decided to give it a shot! So far got into the &lt;a href=&quot;https://www.kaggle.com/nicksiyer&quot;&gt;top 8%&lt;/a&gt;! But I’m still continually working at it every day.&lt;/p&gt;
+
+&lt;p&gt;But how did I even get to that point? Well for starters, I had to feature engineer something that would put me in a position to succeed. That started with examining what I had going with the data I was given:&lt;/p&gt;
+
+&lt;p&gt;&lt;!-- ![edit](/static/assets/img/landing//3steps/Image-1.jpg) --&gt;
+   &lt;img src=&quot;/static/assets/img/landing//3steps/Image-1.jpg&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the left you can see how well Zillow was able to close the gap between their estimate and the final sale price of a home. Obviously they aren’t the best with every home, or they wouldn’t have this competition in the first place.
+You can see as part of that map that areas in green tend to be pretty accurate, but the area in yellow that is boxed in red happens to be a blob where their estimate tends to be weak and be very far from estimating the final sale price correctly.
+By doing some feature engineering I was able to see that the type of property became a huge indicator of whether or not an estimate was possible, as shown by the map on the right. Most of the properties tend to be single family residentials, but you will notice that for multi-unit housing, the Zillow estimate just does not do a good job in capturing the final sale price.&lt;/p&gt;
+
+&lt;p&gt;So that helped actually get me pretty far, for starters, in the competition. After weighting that with some level of significance in running a model (thats right, my favorite machine learning model, XGBoost!) I was able to get into the top 800 of the competition while it was still around ~2500 people entered:&lt;/p&gt;
+
+&lt;p&gt;&lt;!-- ![edit](/static/assets/img/landing//3steps/800thplace.png) --&gt;
+   &lt;img src=&quot;/static/assets/img/landing//3steps/800thplace.png&quot; width=&quot;65%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I did do some slight tweaking to the model’s parameters as you can see it took me 4 tries to eventually place here, but hey, its not a bad start!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 15 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/python/2017/09/15/Zillow-Competition.html</link>
+        <guid isPermaLink="true">http://localhost:4000/python/2017/09/15/Zillow-Competition.html</guid>
+        
+        <category>Python</category>
+        
+        <category>Data</category>
+        
+        <category>Boosting</category>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating this website</title>
+        <description>&lt;p&gt;Everyone wants to have a personal website, you can display your infomation to public. Fortunately, its pretty easy
+with Jekyll and github pages. I designed this website by taking a previous website design that I liked, used some elements of it
+but changed most of it through trial, testing, and making tons of errors.&lt;/p&gt;
+
+&lt;p&gt;Most of the configurations of websites exist in the config.yml page of Jekyll, but this particular project was all over the place and definitely required
+a lot more than that. But a couple of pointers for those trying their skills at making a website:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Fork &lt;a href=&quot;https://github.com/jarrekk/Jalpc&quot;&gt;this project – Jalpc&lt;/a&gt; at &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;. If you want to edit website at github, do it as following gif or clone forked repository. &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone git@github.com:github_username/Jalpc.git&lt;/code&gt;.&lt;/p&gt;
-
-    &lt;p&gt;&lt;!-- ![edit](/static/assets/img/landing/avatarr.jpg/3steps/edit.gif) --&gt;
- &lt;img src=&quot;/static/assets/img/landing/avatarr.jpg/3steps/edit.gif&quot; width=&quot;75%&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Enter into repository directory and edit following file list:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;_config.yml&lt;/strong&gt;: edit ‘Website settings’, ‘author’, ‘comment’ and ‘analytics’ items.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;_data/landing.yml&lt;/strong&gt;: custom sections of index page.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;_data/index/&lt;/strong&gt;: edit sections’ data to yours at index page, please notice comment at each file.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;_data/blog.yml&lt;/strong&gt;: edit navbar(categories) of blog page, if you have different/more blog page, copy &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/python.html&lt;/code&gt; and change it to your category HTML file, and edit &lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;/python/&lt;/strong&gt; to your category name at items &lt;strong&gt;title&lt;/strong&gt; and &lt;strong&gt;permalink&lt;/strong&gt;, make sure title is the same as permalink but capitalized first letter(except HTML).&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;strong&gt;CNAME&lt;/strong&gt;: If you wanna release website at your own domain name: edit it and create &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; branch; if you want to use &lt;em&gt;github_username.github.io&lt;/em&gt;: leave it blank.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Go to repo’s settings panel, config &lt;strong&gt;GitHub Pages&lt;/strong&gt; section to make sure website is released.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;p&gt;Use finder to find various instances of words scattered throughout the css, including the names of pictures and fonts. This will help you locate exactly where you need to edit style changes in order to push it to your website&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Push changes to your github repository and view your website, done!&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;From now on, you can post your blog to this website by creating md files at &lt;code class=&quot;highlighter-rouge&quot;&gt;post/&lt;/code&gt; directory and push it to GitHub, you can clear files at this directory before you post blogs.&lt;/p&gt;
+&lt;p&gt;Thanks for visiting!&lt;/p&gt;
 
-&lt;p&gt;If you like this repository, I appreciate you star this repository. Please don’t hesitate to mail me or post issues on GitHub if you have any questions. Hope you have a happy blog time!😊&lt;/p&gt;
 </description>
-        <pubDate>Tue, 31 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html</link>
-        <guid isPermaLink="true">http://localhost:4000/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html</guid>
-        
-        <category>Jalpc</category>
+        <pubDate>Thu, 07 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/html/2017/09/07/Creating-this-website.html</link>
+        <guid isPermaLink="true">http://localhost:4000/html/2017/09/07/Creating-this-website.html</guid>
         
         <category>Jekyll</category>
         
         
         <category>HTML</category>
+        
+      </item>
+    
+      <item>
+        <title>Examining MTA Turnstile Data</title>
+        <description>&lt;p&gt;Hello!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/python/2017/07/11/Examining-MTA-Turnstile-Data.html</link>
+        <guid isPermaLink="true">http://localhost:4000/python/2017/07/11/Examining-MTA-Turnstile-Data.html</guid>
+        
+        <category>Python</category>
+        
+        <category>Data</category>
+        
+        <category>Pandas</category>
+        
+        
+        <category>Python</category>
         
       </item>
     

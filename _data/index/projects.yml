@@ -3,19 +3,19 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Zillow Prize - Veracity of Real Estate
   # i18n: jalpc
-  url: http://nicksiyer.me/Home/html/
+  url: http://nicksiyer.me/python/2017/09/15/Zillow-Competition.html
   img: /static/assets/img/landing/zillowlogo.png
   desc: This project is based around the Zillow competion on property estimates
-
-- name:
-  # i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
-
-- name: Google
+#
+#- name:
+#  # i18n: cpython
+#  gh_user: python
+#  repo: cpython
+#  img: /static/assets/img/landing/python.png
+#  desc: This project is other's project. I use another request to get repo's information.
+#
+- name: Creating this website
   # i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  url: http://127.0.0.1:4000/html/2017/09/07/Creating-this-website.html
+  img: /static/assets/img/landing/jekyll.png
+  desc: About how I made this website
