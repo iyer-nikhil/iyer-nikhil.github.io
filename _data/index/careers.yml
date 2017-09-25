@@ -46,7 +46,7 @@
     detail: TBA
     # i18n: company_b
   desc:
-    detail: Currently searching for my next employment opportunity in a data science role
+    detail: Currently searching for my next employment opportunity
     # i18n: company_b_desc
   date:
     detail: Now
