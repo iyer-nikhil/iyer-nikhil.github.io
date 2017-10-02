@@ -6,14 +6,13 @@
   url: http://nicksiyer.me/python/2017/09/15/Zillow-Competition.html
   img: /static/assets/img/landing/zillowlogo.png
   desc: This project is based around the Zillow competion on property estimates
-#
-#- name:
-#  # i18n: cpython
-#  gh_user: python
-#  repo: cpython
-#  img: /static/assets/img/landing/python.png
-#  desc: This project is other's project. I use another request to get repo's information.
-#
+
+- name: MTA Turnstiles
+  # i18n: cpython
+  url: http://nicksiyer.me/python/2017/07/11/Examining-MTA-Turnstile-Data.html
+  img: /static/assets/img/landing/nycopen.png
+  desc: MTA Turnstile Exploration
+
 - name: Creating this website
   # i18n: google
   url: http://nicksiyer.me/html/2017/09/07/Creating-this-website.html
