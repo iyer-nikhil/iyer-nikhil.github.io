@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Zillow Prize - The Veracity of Real Estate"
+title:  "Zillow Prize: Predicting Real Estate"
 date:   2017-09-15
-desc: "Using the Zillow-Kaggle competition to predict property estimates"
-keywords: "Zillow, housing, property, Kaggle, python"
+desc: "Finding what goes into an accurate property estimate relative to sale price"
+keywords: "Zillow, housing, property, Kaggle, python, estimate, logerror"
 categories: [Python]
 tags: [Python,Data,Boosting]
 icon: icon-python
@@ -25,7 +25,7 @@ In order to get there though, they have a few barriers to entry:
 For starters, I had to feature engineer something that would put me in a position to succeed. That started with examining certain features like the type of property below:  
 
    <!-- ![edit]({{ site.img_path }}/3steps/Image-1.jpg) -->
-   <img src="{{ site.img_path }}/3steps/Image-1.jpg" width="85%">
+   <img src="{{ site.img_path }}/3steps/Image-1.jpg" width="70%" class="center-image">
 
 
 On the left you can see how well Zillow was able to close the gap between their estimate and the final sale price of a home. Obviously they aren't the best with every home, or they wouldn't have this competition in the first place.
@@ -35,24 +35,24 @@ By doing some feature engineering I was able to see that the type of property be
 After weighting that with some level of significance in running a model (XGBoost) I was able to get into the top 800 of the competition while it was still around ~2500 people entered:
 
    <!-- ![edit]({{ site.img_path }}/3steps/800thplace.png) -->
-   <img src="{{ site.img_path }}/3steps/800thplace.png" width="85%">
+   <img src="{{ site.img_path }}/3steps/800thplace.png" width="70%" class="center-image">
    
 I did do some slight tweaking to the model's parameters and also found an interesting spot to potentially bifurcate the data. This is in the type of zoning for the property seen here:
 
    <!-- ![edit]({{ site.img_path }}/3steps/image5.png) -->
-   <img src="{{ site.img_path }}/3steps/image5.png" width="85%">
+   <img src="{{ site.img_path }}/3steps/image5.png" width="70%" class="center-image">
    
 By using the type of zoning, I could see that those properties with pool zoning would vastly differ in sale price from the estimate. It didn't just have to do with geographic location and I was better able to isolate this in my model.   
 
 The biggest breakthrough came with running an average of various models with different weightings and node parameters. Using a combination of XGBoost and LightGBM by stacking (aka using in conjunction), I was able to bounce even higher in the competition to where I am today. The basic principle is below:
 
    <!-- ![edit]({{ site.img_path }}/3steps/image3.png) -->
-   <img src="{{ site.img_path }}/3steps/image3.png" width="85%">
+   <img src="{{ site.img_path }}/3steps/image3.png" width="70%" class="center-image">
 
 This is a basic diagram for stacking. As you can see, by taking the training data, passing it through models, and taking various weights of those models, we can produce a better overall predictor which vaulted me to the spot I am at today.
 The exact combination of the models I did use are as follows:
 
    <!-- ![edit]({{ site.img_path }}/3steps/image4.png) -->
-   <img src="{{ site.img_path }}/3steps/image4.png" width="55%">
+   <img src="{{ site.img_path }}/3steps/image4.png" width="70%" class="center-image">
    
 So far got into the [top 11%](https://www.kaggle.com/nicksiyer)! But I'm still continually working at it. Thanks for tuning in and stick around for more to come as the second leg kicks off at midnight 10/3/2017!

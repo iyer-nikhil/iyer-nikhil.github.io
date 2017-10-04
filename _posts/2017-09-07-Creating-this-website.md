@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Creating this website"
+title:  "Creating This Website"
 date:   2017-09-07
-desc: "Creating a website with Jekyll and a little help from themes"
+desc: "How I made this website"
 keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
 categories: [HTML]
 tags: [Jekyll]
