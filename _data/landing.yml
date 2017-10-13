@@ -26,10 +26,10 @@
   tpl: career.html
   css: timeline
 
-#- id: skills
+#- id: Resume
 #  i18n: nav.skills
-#  name: Skills
-#  tpl: skills.html
+#  name: Resume
+#  tpl: resume.html
 #  css: team
 
 

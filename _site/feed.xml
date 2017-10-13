@@ -5,13 +5,33 @@
     <description>A journey through data science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Oct 2017 18:15:04 -0400</pubDate>
-    <lastBuildDate>Tue, 03 Oct 2017 18:15:04 -0400</lastBuildDate>
+    <pubDate>Mon, 09 Oct 2017 17:04:49 -0400</pubDate>
+    <lastBuildDate>Mon, 09 Oct 2017 17:04:49 -0400</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
+        <title>Twitter Feeds with MongoDB</title>
+        <description>&lt;p&gt;Incoming over next few weeks!&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 27 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/mongodb/2017/09/27/Twitter-Feeds-with-MongoDB.html</link>
+        <guid isPermaLink="true">http://localhost:4000/mongodb/2017/09/27/Twitter-Feeds-with-MongoDB.html</guid>
+        
+        <category>MongoDB</category>
+        
+        <category>Twitter</category>
+        
+        <category>Data</category>
+        
+        
+        <category>MongoDB</category>
+        
+      </item>
+    
+      <item>
         <title>Zillow Prize: Predicting Real Estate</title>
-        <description>&lt;p&gt;When I initially joined a data science bootcamp, my dream was to compete in a &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; competition. For those of you that are ufamiliar with what that is, &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; hosts data science competitions for prizes if you are able to score the lowest on a particular benchmark given.&lt;/p&gt;
+        <description>&lt;p&gt;When I initially joined a data science bootcamp, my dream was to compete in a &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; competition. For those of you that are unfamiliar with what that is, &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt; hosts data science competitions for prizes if you are able to score the lowest on a particular benchmark given.&lt;/p&gt;
 
 &lt;p&gt;The grades for the competition allow you to compete against others for a chance at some serious prize money and Zillow just put out a $1 million dollar prize for someone who could use variables on a given property and beat their current estimate algorithm on pricing.&lt;/p&gt;
 
@@ -82,7 +102,7 @@ The exact combination of the models I did use are as follows:&lt;/p&gt;
         <title>Creating This Website</title>
         <description>&lt;p&gt;Everyone wants to have a personal website, you can display your infomation to public. Fortunately, its pretty easy
 with Jekyll and github pages. I designed this website by taking a previous website design that I liked, used some elements of it
-but changed most of it through trial, testing, and making tons of errors.&lt;/p&gt;
+but changed most of it through trial &amp;amp; error + testing.&lt;/p&gt;
 
 &lt;p&gt;Most of the configurations of websites exist in the config.yml page of Jekyll, but this particular project was all over the place and definitely required
 a lot more than that. But a couple of pointers for those trying their skills at making a website:&lt;/p&gt;

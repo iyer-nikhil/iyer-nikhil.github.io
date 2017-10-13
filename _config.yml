@@ -17,11 +17,11 @@ author: # change following line to your infomation.
   avatar: /static/assets/img/landing/avatarr.jpg  # upload your avatar at directory and edit it.
   github_username: nicksiyer  # Leave blank if you don't have now
   linkedin_id: nicksiyer # Leave blank if you don't have now
-  facebook_username: niyer  # Leave blank if you don't have now
-  twitter_username: nicksiyer  # Leave blank if you don't have now
+#  facebook_username: niyer  # Leave blank if you don't have now
+#  twitter_username: nicksiyer  # Leave blank if you don't have now
   email: nick.s.iyer@gmail.com  # Leave blank if you don't have now
-  kaggle: nicksiyer
-  cv: https://goo.gl/meqZBK  # An online CV can be printed as PDF, leave blank if you don't have now
+#  kaggle: nicksiyer
+  cv: /resume # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-python
@@ -52,7 +52,7 @@ gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your 
 donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
+index_carousel: off  # index page carousel switch
 blog_carousel: on  # blog page carousel switch
 
 # scss

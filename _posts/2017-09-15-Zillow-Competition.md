@@ -10,7 +10,7 @@ icon: icon-python
 comments: true
 ---
 
-When I initially joined a data science bootcamp, my dream was to compete in a [Kaggle](https://www.kaggle.com/) competition. For those of you that are ufamiliar with what that is, [Kaggle](https://www.kaggle.com/) hosts data science competitions for prizes if you are able to score the lowest on a particular benchmark given.
+When I initially joined a data science bootcamp, my dream was to compete in a [Kaggle](https://www.kaggle.com/) competition. For those of you that are unfamiliar with what that is, [Kaggle](https://www.kaggle.com/) hosts data science competitions for prizes if you are able to score the lowest on a particular benchmark given.
 
 The grades for the competition allow you to compete against others for a chance at some serious prize money and Zillow just put out a $1 million dollar prize for someone who could use variables on a given property and beat their current estimate algorithm on pricing.
 

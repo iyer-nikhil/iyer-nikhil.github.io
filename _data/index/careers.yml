@@ -1,32 +1,19 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name:
-    detail: numberFire
-    # i18n: company_a
-  desc:
-    detail: Generated media for fantasy sports analytics platform
-    # i18n: company_a_desc
-  date:
-    detail: 2015-16
-    # i18n: company_a_date
-  job:
-    detail: Product Assistant
-    # i18n: company_a_job
-  icon: fa-trophy
 
 - name:
-    detail: ProHealth Care
+    detail: TBA
     # i18n: company_b
   desc:
-    detail: Managed data analytics for one of the largest medical practice groups in the Northeast
+    detail: Currently searching for my next employment opportunity
     # i18n: company_b_desc
   date:
-    detail: 2016-17
+    detail: Now
     # i18n: company_b_date
   job:
-    detail: IT-Data Analyst
+    detail: Data Scientist / Engineer
     # i18n: company_b_job
-  icon: fa-user-md
+  icon: fa-forward
 
 - name:
     detail: Metis
@@ -43,15 +30,31 @@
   icon: fa-cube
 
 - name:
-    detail: TBA
+    detail: ProHealth Care
     # i18n: company_b
   desc:
-    detail: Currently searching for my next employment opportunity
+    detail: Managed data analytics for one of the largest medical practice groups in the Northeast
     # i18n: company_b_desc
   date:
-    detail: Now
+    detail: 2016-17
     # i18n: company_b_date
   job:
-    detail: Data Scientist / Engineer
+    detail: IT-Data Analyst
     # i18n: company_b_job
-  icon: fa-forward
+  icon: fa-user-md
+
+- name:
+    detail: numberFire
+    # i18n: company_a
+  desc:
+    detail: Generated media for fantasy sports analytics platform
+    # i18n: company_a_desc
+  date:
+    detail: 2015-16
+    # i18n: company_a_date
+  job:
+    detail: Product Assistant
+    # i18n: company_a_job
+  icon: fa-trophy
+
+
