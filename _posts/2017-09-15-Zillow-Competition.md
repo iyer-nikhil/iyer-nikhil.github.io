@@ -55,4 +55,4 @@ The exact combination of the models I did use are as follows:
    <!-- ![edit]({{ site.img_path }}/3steps/image4.png) -->
    <img src="{{ site.img_path }}/3steps/image4.png" width="70%" class="center-image">
    
-So far got into the [top 11%](https://www.kaggle.com/nicksiyer)! But I'm still continually working at it. Thanks for tuning in and stick around for more to come as the second leg kicks off at midnight 10/3/2017!
+So far got into the [top 11%](https://www.kaggle.com/nicksiyer)! Hope to post more about other kaggle competitions here soon!
