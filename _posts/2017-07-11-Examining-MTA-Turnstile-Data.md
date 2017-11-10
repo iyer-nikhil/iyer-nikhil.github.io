@@ -28,14 +28,11 @@ Here is another visual in the form of a bar graph to give you a much better side
    
 
 
-One interesting thing to note is that these are just entries into the subway and not exits. Why did I choose to leave exits alone? well its because of something I noticed when exploring the overall dataset for multiple stations.
+One interesting thing to note is that these are just entries into the subway and not exits. Why did I choose to leave exits alone? Well its because even when looking at multiple stations, the entries and exits on a weekly basis do not match at all.
 
    <!-- ![edit]({{ site.img_path }}/3steps/img1g4.jpg) -->
    <img src="{{ site.img_path }}/3steps/img1g4.jpg" width="70%" class="center-image"> 
    
-When looking at the chart above, you notice consistently that the entries are nowhere near the population of people exiting the station. But people have to enter and exit at the same time the subway cars can't just be eating people!   
-Thats because in some cases, people use the emergency exits on the turnstiles, which do not count the number of people. So having the entries is for the most part accurate because that barrier is set. Using exits would not be doing the data justice.
+That's because in some cases, people use the emergency exits on the turnstiles, which do not count the number of people. So having the entries is for the most part accurate because that barrier is set. Using exits would not be doing the data justice.
 
-The one failure of this is I used this data to initially explore what stations to target if we were to advertise and give people fliers on their way OUT of the station. I wouldn't be using the most accurate data as exits would be the thing to target here but we cannot know for sure if that information is even accurate.
-
-Thank you for listening to my intro EDA for MTA Turnstiles. I hope to have more for you soon!
+Thank you for listening to my intro EDA for MTA Turnstiles. If you want to check out my [GitHub](https://github.com/nicksiyer/mta_turnstiles) please feel free! This is my first project working with data and I urge you to check out my other projects that cover more extensively machine learning tools that I learned throughout the Metis program.
