@@ -2,18 +2,32 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
-    detail: TBA
+    detail: To Be Announced
     # i18n: company_b
   desc:
-    detail: Currently searching for my next employment opportunity
+    detail: Interviewing with organizations seeking full-time employment
     # i18n: company_b_desc
   date:
-    detail: Now
+    detail: Currently In Process
     # i18n: company_b_date
   job:
-    detail: Data Scientist / Engineer
+    detail: TBA
     # i18n: company_b_job
-  icon: fa-forward
+  icon: fa-level-up
+
+- name:
+    detail: Kareena Consulting Inc.
+    # i18n: company_b
+  desc:
+    detail: Freelancing consultant assisting clients with data science to develop insights
+    # i18n: company_b_desc
+  date:
+    detail: July 2017 to December 2017
+    # i18n: company_b_date
+  job:
+    detail: Data Science Freelancer
+    # i18n: company_b_job
+  icon: fa-lightbulb-o
 
 - name:
     detail: Metis
@@ -22,10 +36,10 @@
     detail: Developed data science skills through project-oriented learning in an immersive bootcamp environment
     # i18n: company_b_desc
   date:
-    detail: 2017
+    detail: June 2017 to September 2017
     # i18n: company_b_date
   job:
-    detail: Data Scientist
+    detail: Professional Certificate in Data Science
     # i18n: company_b_job
   icon: fa-cube
 
@@ -36,7 +50,7 @@
     detail: Managed data analytics for one of the largest medical practice groups in the Northeast
     # i18n: company_b_desc
   date:
-    detail: 2016-17
+    detail: March 2016 to June 2017
     # i18n: company_b_date
   job:
     detail: IT-Data Analyst
@@ -50,7 +64,7 @@
     detail: Generated media for fantasy sports analytics platform
     # i18n: company_a_desc
   date:
-    detail: 2015-16
+    detail: February 2015 to January 2016
     # i18n: company_a_date
   job:
     detail: Product Assistant

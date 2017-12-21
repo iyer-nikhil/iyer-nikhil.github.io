@@ -5,29 +5,9 @@
     <description>A journey through data science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Oct 2017 17:04:49 -0400</pubDate>
-    <lastBuildDate>Mon, 09 Oct 2017 17:04:49 -0400</lastBuildDate>
+    <pubDate>Mon, 27 Nov 2017 16:43:29 -0500</pubDate>
+    <lastBuildDate>Mon, 27 Nov 2017 16:43:29 -0500</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
-    
-      <item>
-        <title>Twitter Feeds with MongoDB</title>
-        <description>&lt;p&gt;Incoming over next few weeks!&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 27 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/mongodb/2017/09/27/Twitter-Feeds-with-MongoDB.html</link>
-        <guid isPermaLink="true">http://localhost:4000/mongodb/2017/09/27/Twitter-Feeds-with-MongoDB.html</guid>
-        
-        <category>MongoDB</category>
-        
-        <category>Twitter</category>
-        
-        <category>Data</category>
-        
-        
-        <category>MongoDB</category>
-        
-      </item>
     
       <item>
         <title>Zillow Prize: Predicting Real Estate</title>
@@ -81,7 +61,7 @@ The exact combination of the models I did use are as follows:&lt;/p&gt;
 &lt;p&gt;&lt;!-- ![edit](/static/assets/img/landing//3steps/image4.png) --&gt;
    &lt;img src=&quot;/static/assets/img/landing//3steps/image4.png&quot; width=&quot;70%&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;So far got into the &lt;a href=&quot;https://www.kaggle.com/nicksiyer&quot;&gt;top 11%&lt;/a&gt;! But I’m still continually working at it. Thanks for tuning in and stick around for more to come as the second leg kicks off at midnight 10/3/2017!&lt;/p&gt;
+&lt;p&gt;So far got into the &lt;a href=&quot;https://www.kaggle.com/nicksiyer&quot;&gt;top 11%&lt;/a&gt;! Hope to post more about other kaggle competitions here soon!&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Sep 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/python/2017/09/15/Zillow-Competition.html</link>
@@ -131,6 +111,37 @@ a lot more than that. But a couple of pointers for those trying their skills at 
       </item>
     
       <item>
+        <title>Predicting Stock Price Using Key Statistics</title>
+        <description>&lt;p&gt;Not having a lot of experience working in finance, I wanted to know what exactly went into the pricing of a stock. During a trading day, a given stock will go up or down depending on the supply and demand of shares, and is always moving towards an optimal price that factors in the value of a company dependent on what investors feel it is worth.&lt;/p&gt;
+
+&lt;p&gt;But removing for news and sticking solely to the quantitative fundamentals, the question was, “could I use a regressive model to judge if a stock is over or underpriced in the market?” Obviously this is a very naive approach that does not factor main factors such as recent news as well as any earnings outlook that may have been priced in. But I decided to give it a shot and see what happened.&lt;/p&gt;
+
+&lt;p&gt;By setting up a scraper to parse Yahoo Finance key statistics into a .json file, I took a look at the following metrics of a sample stock :&lt;/p&gt;
+
+&lt;p&gt;&lt;!-- ![edit](/static/assets/img/landing//3steps/stats2.png) --&gt; &lt;!-- ![edit](/static/assets/img/landing//3steps/stats1.png) --&gt; &lt;!-- ![edit](/static/assets/img/landing//3steps/stats2.png) --&gt; &lt;!-- ![edit](/static/assets/img/landing//3steps/stats1.png) --&gt; 
+  &lt;img src=&quot;/static/assets/img/landing//3steps/stats2.png&quot; width=&quot;23%&quot; /&gt; &lt;img src=&quot;/static/assets/img/landing//3steps/stats1.png&quot; width=&quot;23%&quot; /&gt; &lt;img src=&quot;/static/assets/img/landing//3steps/stats2.png&quot; width=&quot;23%&quot; /&gt; &lt;img src=&quot;/static/assets/img/landing//3steps/stats1.png&quot; width=&quot;23%&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 23 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/python/2017/07/23/Using-Stock-Fundamentals-To-Predict-Stock-Price.html</link>
+        <guid isPermaLink="true">http://localhost:4000/python/2017/07/23/Using-Stock-Fundamentals-To-Predict-Stock-Price.html</guid>
+        
+        <category>Python</category>
+        
+        <category>Data</category>
+        
+        <category>Scrapy</category>
+        
+        <category>Finance</category>
+        
+        <category>Linear Regression</category>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
         <title>NYC Open Data: Examining MTA Turnstile Data</title>
         <description>&lt;p&gt;NYC Open Data puts out a lot of neat information online. One of these pieces is MTA data that shows how many people go through various turnstiles across NYC’s boroughs. I thought it was a cool EDA to check out and especially the subway line that is relatively new to the city and one close to my heart: the 2nd Ave Q line.&lt;/p&gt;
 
@@ -148,17 +159,14 @@ a lot more than that. But a couple of pointers for those trying their skills at 
 &lt;p&gt;&lt;!-- ![Bar graph of subway entries for 86th St](/static/assets/img/landing//3steps/img1g3.jpg) --&gt;
    &lt;img src=&quot;/static/assets/img/landing//3steps/img1g3.jpg&quot; width=&quot;70%&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;One interesting thing to note is that these are just entries into the subway and not exits. Why did I choose to leave exits alone? well its because of something I noticed when exploring the overall dataset for multiple stations.&lt;/p&gt;
+&lt;p&gt;One interesting thing to note is that these are just entries into the subway and not exits. Why did I choose to leave exits alone? Well its because even when looking at multiple stations, the entries and exits on a weekly basis do not match at all.&lt;/p&gt;
 
 &lt;p&gt;&lt;!-- ![edit](/static/assets/img/landing//3steps/img1g4.jpg) --&gt;
    &lt;img src=&quot;/static/assets/img/landing//3steps/img1g4.jpg&quot; width=&quot;70%&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;When looking at the chart above, you notice consistently that the entries are nowhere near the population of people exiting the station. But people have to enter and exit at the same time the subway cars can’t just be eating people! &lt;br /&gt;
-Thats because in some cases, people use the emergency exits on the turnstiles, which do not count the number of people. So having the entries is for the most part accurate because that barrier is set. Using exits would not be doing the data justice.&lt;/p&gt;
+&lt;p&gt;That’s because in some cases, people use the emergency exits on the turnstiles, which do not count the number of people. So having the entries is for the most part accurate because that barrier is set. Using exits would not be doing the data justice.&lt;/p&gt;
 
-&lt;p&gt;The one failure of this is I used this data to initially explore what stations to target if we were to advertise and give people fliers on their way OUT of the station. I wouldn’t be using the most accurate data as exits would be the thing to target here but we cannot know for sure if that information is even accurate.&lt;/p&gt;
-
-&lt;p&gt;Thank you for listening to my intro EDA for MTA Turnstiles. I hope to have more for you soon!&lt;/p&gt;
+&lt;p&gt;Thank you for listening to my intro EDA for MTA Turnstiles. If you want to check out my &lt;a href=&quot;https://github.com/nicksiyer/mta_turnstiles&quot;&gt;GitHub&lt;/a&gt; please feel free! This is my first project working with data and I urge you to check out my other projects that cover more extensively machine learning tools that I learned throughout the Metis program.&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Jul 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/python/2017/07/11/Examining-MTA-Turnstile-Data.html</link>

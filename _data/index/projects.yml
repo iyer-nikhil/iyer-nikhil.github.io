@@ -15,6 +15,6 @@
 
 - name: 'Creating This Website'
   # i18n: google
-  url: http://nicksiyer.me/html/2017/09/07/Creating-this-website.html
+  url: http://nicksiyer.me/p/Creating-My-Blog.html
   img: /static/assets/img/landing/jekyll.png
   desc: How I made this website

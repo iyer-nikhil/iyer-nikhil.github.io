@@ -4,7 +4,7 @@ title:  "NYC Open Data: Examining MTA Turnstile Data"
 date:   2017-07-11
 desc: "Exploratory data analysis on subway turnstile information"
 keywords: "MTA, turnstile, data, frequency"
-categories: [Python]
+categories: [Data Science]
 tags: [Python,Data,Pandas]
 icon: icon-python
 comments: true

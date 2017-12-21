@@ -3,14 +3,6 @@
     "data" : [
      
     {
-        "title" : "Twitter Feeds with MongoDB - 2017-09-27",
-        "url" : "/mongodb/2017/09/27/Twitter-Feeds-with-MongoDB.html"
-    }
-    
-    ,
-    
-    
-    {
         "title" : "Zillow Prize: Predicting Real Estate - 2017-09-15",
         "url" : "/python/2017/09/15/Zillow-Competition.html"
     }
@@ -21,6 +13,14 @@
     {
         "title" : "Creating This Website - 2017-09-07",
         "url" : "/html/2017/09/07/Creating-this-website.html"
+    }
+    
+    ,
+    
+    
+    {
+        "title" : "Predicting Stock Price Using Key Statistics - 2017-07-23",
+        "url" : "/python/2017/07/23/Using-Stock-Fundamentals-To-Predict-Stock-Price.html"
     }
     
     ,
