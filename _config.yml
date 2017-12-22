@@ -2,7 +2,7 @@
 title: Nick S Iyer
 subtitle: .me
 email: nick.s.iyer@gmail.com
-description: A website dedicated to data science,<br /> machine learning, code blogging and more...
+description: A website dedicated to code blogging,<br /> data science, machine learning, and more...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 seehere: Link to CV
