@@ -1,5 +1,0 @@
----
-title: robots
----
-User-agent: *
-Sitemap: http://nicksiyer.me/sitemap.xml>
