@@ -20,3 +20,7 @@ The summer of 2017, I enrolled in the Metis program, a 12-week course designed t
 big data and modern analysis. It was fascinating to learn how effective python could be as a tool and how well maintained
 many of the packages were. Also, learning was intuitive, and brought about many 'Aha!' moments as I created projects
 designed to implement every aspect of what I learned.
+
+Now, looking to further my expertise and turn practice into production, I'm currently looking for data science and data
+engineering opportunities. I hope by the start of 2018, I will have more projects, posts, and knowledge to bring to the
+data science community!
