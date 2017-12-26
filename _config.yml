@@ -4,7 +4,7 @@ subtitle: .me
 email: nick.s.iyer@gmail.com
 description: Dedicated to understanding data <br /> science, machine learning and more <br /> through explorations in code...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://www.nicksiyer.me" # the base hostname & protocol for your site
 seehere: Link to CV
 #author:
 #street_address:
