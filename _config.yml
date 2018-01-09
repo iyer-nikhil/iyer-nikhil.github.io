@@ -1,12 +1,113 @@
-# Site settings
-title:
-email: nick.s.iyer@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site navigation
 
-twitter_username: nicksiyer
-github_username: nicksiyer
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- demo/*
+- alembic-jekyll-theme.gemspec
 
-# Build settings
-markdown: kramdown
+# 2. Installed Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+
+# 3. Gem settings
+paginate: 2 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: nicksiyer # jekyll-seo-tag > Owners twitter username
+author: Nick S. Iyer # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: Nick S. Iyer # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/nicksiyer
+    - https://www.facebook.com/niyer
+    - https://www.linkedin.com/in/nicksiyer
+    - https://github.com/nicksiyer
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/London # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: Posts # Needed for Siteleaf
+    output: true
+    description: "My thoughts and ideas" # The post list page content
+    feature_text: |
+      Welcome to the blog
+    feature_image: "https://unsplash.it/1300/400?image=791"
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-GB # Set the site language
+title: "Nick S. Iyer" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "This site is dedicated to the data science blog for Nick S. Iyer. All rights reserved." # Site description and default description, also used in jekyll-seo-tag
+url: "https://nicksiyer.me" # Site url, also used in jekyll-seo-tag
+baseurl: ""
+repo: "https://github.com/nicksiyer/nicksiyer.github.io"
+email: "nick.s.iyer@gmail.com"
+# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+avatarurl: "https://avatars3.githubusercontent.com/u/13758145?v=3&s=460" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+
+# 8. Site navigation
+navigation_header:
+  Home: /
+  # Elements: /elements/
+  # Blog: /blog/
+  # Categories: /categories/
+  # Search: /search/
+
+navigation_footer:
+  Link to Resume: https://goo.gl/suT6LU
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/nicksiyer
+  LinkedIn: https://www.linkedin.com/in/nicksiyer
+  GitHub: https://github.com/nicksiyer
+  link: http://nicksiyer.me
+
+sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
+  Twitter: "#1DA1F2"
+  facebook: "#3B5998"
+  # Google+: "#DC4E41"
+  # Pinterest: "#BD081C"
+  LinkedIn: "#0077B5"
+  # tumblr: "#36465D"
+  # Reddit: "#FF4500"
+  # Hacker News: "#ff6600"
+  # Designer News: "#2D72D9"
+  # Email: ""
