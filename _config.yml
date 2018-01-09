@@ -1,37 +1,12 @@
-# site settings
-title: Nick S Iyer
-subtitle: .me
+# Site settings
+title:
 email: nick.s.iyer@gmail.com
-description: Dedicated to understanding data <br /> science, machine learning and more <br /> through explorations in code...
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.nicksiyer.me" # the base hostname & protocol for your site
-seehere: Link to CV
-#author:
-#street_address:
-#city:
-#state:
-#zip_code:
-#country:
-phone: (516) 426-6643
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-# homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+twitter_username: nicksiyer
+github_username: nicksiyer
 
-# social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/nicksiyer
-gitlab_url:
-googleplus_url:
-instagram_url: https://www.instagram.com/toomuchgolf/
-linkedin_url: https://www.linkedin.com/in/nicksiyer/
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/nicksiyer
-
-# build settings
+# Build settings
 markdown: kramdown
-
-sass:
-  style: compressed
