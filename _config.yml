@@ -17,8 +17,9 @@ author: # change following line to your infomation.
   avatar: /static/assets/img/landing/avatarr.jpg  # upload your avatar at directory and edit it.
   github_username: nicksiyer  # Leave blank if you don't have now
   linkedin_id: nicksiyer # Leave blank if you don't have now
+  instagram: toomuchgolf
 #  facebook_username: niyer  # Leave blank if you don't have now
-#  twitter_username: nicksiyer  # Leave blank if you don't have now
+  twitter_username: nicksiyer  # Leave blank if you don't have now
   email: nick.s.iyer@gmail.com  # Leave blank if you don't have now
 #  kaggle: nicksiyer
   cv: /resume # An online CV can be printed as PDF, leave blank if you don't have now

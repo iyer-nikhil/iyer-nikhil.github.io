@@ -24,25 +24,28 @@
                 <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
                 <ul class="list-inline social-icon">
                     {% if site.author.github_username %}
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-lg fa-github"></i></a></li>
                     {% endif %}
                     {% if site.author.linkedin_id %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
                     {% endif %}
                     {% if site.author.facebook_username %}
-                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-lg fa-facebook"></i></a></li>
                     {% endif %}
                     {% if site.author.twitter_username %}
-                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-lg fa-twitter"></i></a></li>
+                    {% endif %}
+                    {% if site.author.instagram %}
+                    <li><a href="https://instagram.com/{{ site.author.instagram }}" target="blank"><i class="fa fa-lg fa-instagram"></i></a></li>
                     {% endif %}
                     {% if site.author.email %}
-                    <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-lg fa-envelope-o"></i></a></li>
                     {% endif %}
                     {% if site.author.kaggle %}
-                    <li><a href="https://www.kaggle.com/{{ site.author.kaggle }}" target="blank"><i class="fa fa-money"></i></a></li>
+                    <li><a href="https://www.kaggle.com/{{ site.author.kaggle }}" target="blank"><i class="fa fa-lg fa-money"></i></a></li>
                     {% endif %}
                     {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                    <li style=" display: block; padding-top: 9px;>"><a href="{{ site.author.cv }}" target="blank" style="width: 100px; margin: auto; padding-top: 5px;">Resume</a></li>
                     {% endif %}
                 </ul>
             </div>
