@@ -29,7 +29,8 @@ author: # change following line to your infomation.
   skill_icon2:
     - name: icon-shell
     - name: icon-database-alt2
-  desc: I am a data scientist and machine learning enthusiast looking to enhance my skills through data-driven analysis and project-oriented learning. Born and raised in New York, I   # Describe yourself.
+  desc: I am a data scientist and machine learning enthusiast looking to enhance my skills through data-driven analysis and project-oriented learning.
+        Born and raised New Yorker and golf enthusiast at heart.   # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
