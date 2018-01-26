@@ -2,30 +2,30 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
-    detail: TBA
+    detail: Kareena Consulting
     # i18n: company_b
   desc:
-    detail: Currently searching for my next employment opportunity
+    detail: Delivering business insights, mining data and optimizing predictive analysis with machine learning techniques
     # i18n: company_b_desc
   date:
-    detail: Now
+    detail: October 2017 - Present
     # i18n: company_b_date
   job:
-    detail: Data Scientist / Engineer
+    detail: Freelancer
     # i18n: company_b_job
-  icon: fa-forward
+  icon: fa-area-chart
 
 - name:
     detail: Metis
     # i18n: company_b
   desc:
-    detail: Developed data science skills through project-oriented learning in an immersive bootcamp environment
+    detail: Developed data science skills through project-based learning environment
     # i18n: company_b_desc
   date:
-    detail: 2017
+    detail: June 2017 - September 2017
     # i18n: company_b_date
   job:
-    detail: Data Scientist
+    detail: Certification in Data Science
     # i18n: company_b_job
   icon: fa-cube
 
@@ -33,10 +33,10 @@
     detail: ProHealth Care
     # i18n: company_b
   desc:
-    detail: Managed data analytics for one of the largest medical practice groups in the Northeast
+    detail: Performed analysis in Excel and managed SQL databases for one of the largest medical practice groups in the Northeast
     # i18n: company_b_desc
   date:
-    detail: 2016-17
+    detail: March 2016 - June 2017
     # i18n: company_b_date
   job:
     detail: IT-Data Analyst
@@ -47,10 +47,10 @@
     detail: numberFire
     # i18n: company_a
   desc:
-    detail: Generated media for fantasy sports analytics platform
+    detail: Generated social advertising content and visual media for fantasy sports analytics platform
     # i18n: company_a_desc
   date:
-    detail: 2015-16
+    detail: February 2015 - January 2016
     # i18n: company_a_date
   job:
     detail: Product Assistant

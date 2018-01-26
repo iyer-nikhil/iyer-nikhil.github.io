@@ -12,8 +12,8 @@
 - name: HTML
   href: /html/
 
-#- name: Database
-#  href: /database/
+- name: SQL
+  href: /sql/
 #
 #- name: Mac
 #  href: /mac/
