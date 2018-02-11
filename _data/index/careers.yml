@@ -2,30 +2,30 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
-    detail: Kareena Consulting
+    detail: UpWork
     # i18n: company_b
   desc:
-    detail: Delivering business insights, mining data and optimizing predictive analysis with machine learning techniques
+    detail: Delivering business insights, mining data and optimizing predictive analysis with machine learning techniques.
     # i18n: company_b_desc
   date:
     detail: October 2017 - Present
     # i18n: company_b_date
   job:
-    detail: Freelancer
+    detail: Professional Freelancer
     # i18n: company_b_job
-  icon: fa-area-chart
+  icon: fa-arrow-up
 
 - name:
     detail: Metis
     # i18n: company_b
   desc:
-    detail: Developed data science skills through project-based learning environment
+    detail: Developed data science skills through project-based learning environment. Head to the blog to check them out!
     # i18n: company_b_desc
   date:
     detail: June 2017 - September 2017
     # i18n: company_b_date
   job:
-    detail: Certification in Data Science
+    detail: Certificate in Data Science
     # i18n: company_b_job
   icon: fa-cube
 
@@ -33,7 +33,7 @@
     detail: ProHealth Care
     # i18n: company_b
   desc:
-    detail: Performed analysis in Excel and managed SQL databases for one of the largest medical practice groups in the Northeast
+    detail: Performed analysis in Excel and managed SQL databases for one of the largest medical practice groups in the Northeast.
     # i18n: company_b_desc
   date:
     detail: March 2016 - June 2017
@@ -47,10 +47,10 @@
     detail: numberFire
     # i18n: company_a
   desc:
-    detail: Generated social advertising content and visual media for fantasy sports analytics platform
+    detail: Generated social advertising content and visual media for fantasy sports analytics platform.
     # i18n: company_a_desc
   date:
-    detail: February 2015 - January 2016
+    detail: September 2015 - January 2016
     # i18n: company_a_date
   job:
     detail: Product Assistant
