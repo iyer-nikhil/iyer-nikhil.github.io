@@ -10,13 +10,19 @@
   </div>
   <div class="contents">
     {% if post.title %}}
-    <h3> Project Title </h3>
+    <h3> {{ post.title }} </h3>
     {% endif %}
+    {% if post.tags}
     <ul>
-      <li> Featured Skills</li>
+      <li> Featured Skills: {{ post.tags }}</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    {% endif %}
+    {% if post.desc %}
+    <p>{{ post.desc }}</p>
+    {% endif %}
+    {% if post.github %}}
+    <a class="project-link" href="{{ post.}}">Check it out</a>
+    {% endif %}
   </div>
 </div>
 {% endfor %}
