@@ -8,6 +8,7 @@ categories: [Python]
 tags: [Python,Data,Boosting]
 icon: icon-python
 comments: true
+image_name: /assets/img/mountains.jpg
 ---
 
 When I initially joined a data science bootcamp, my dream was to compete in a [Kaggle](https://www.kaggle.com/) competition. For those of you that are unfamiliar with what that is, [Kaggle](https://www.kaggle.com/) hosts data science competitions for prizes if you are able to score the lowest on a particular benchmark given.

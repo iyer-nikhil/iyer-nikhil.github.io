@@ -13,7 +13,7 @@
 
 .user {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -23,7 +23,7 @@
   }
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
-    font-size: 75px;
+    font-size: 45px;
   }
 }
 

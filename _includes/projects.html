@@ -1,41 +1,40 @@
 <div class="user-details">
-  <h1> Featured Projects </h1>
+  <h2> Featured Projects </h2>
+  <p> Coming Soon!</p>
 </div>
-{% for post in site.posts limit:10 %}
-<div class="user-projects">
-  <div class="images-right">
-    {% if post.image %}
-    <img alt="{{ post.image_name}}" src="{{ "{{ post.image }}" | prepend: site.baseurl }}" />
-    {% endif %}
-  </div>
-  <div class="contents">
-    {% if post.title %}}
-    <h3> {{ post.title }} </h3>
-    {% endif %}
-    {% if post.tags %}
-    <ul>
-      <li> Featured Skills: {{ post.tags }}</li>
-    </ul>
-    {% endif %}
-    {% if post.desc %}
-    <p>{{ post.desc }}</p>
-    {% endif %}
-    {% if post.github %}}
-    <a class="project-link" href="{{ post.}}">Check it out</a>
-    {% endif %}
-  </div>
-</div>
-{% endfor %}
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
+<!--{% for post in site.posts limit:10 %}-->
+<!--<div class="user-projects">-->
+  <!--{% if post.image %}-->
+  <!--<div class="images-right">-->
+    <!--<img src="{{ "{{ post.image_name }}" | prepend: site.baseurl }}">-->
+  <!--</div>-->
+  <!--{% endif %}-->
+  <!--<div class="contents-left">-->
+    <!--{% if post.title %}-->
+    <!--<h3> {{ post.title }} </h3>-->
+    <!--{% endif %}-->
+    <!--<ul>-->
+      <!--<li> Featured Skills: </li>-->
+    <!--</ul>-->
+    <!--{% if post.desc %}-->
+    <!--<p>{{ post.desc }}</p>-->
+    <!--{% endif %}-->
+    <!--{% if post.github %}-->
+    <!--<a class="project-link" href="{{ post.}}">Check it out</a>-->
+    <!--{% endif %}-->
+  <!--</div>-->
+<!--</div>-->
+<!--{% endfor %}-->
+<!--<div class="user-projects">-->
+  <!--<div class="images-left">-->
+    <!--<img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />-->
+  <!--</div>-->
+  <!--<div class="contents-right">-->
+    <!--<h3> Project Title </h3>-->
+    <!--<ul>-->
+      <!--<li> Featured Skills</li>-->
+    <!--</ul>-->
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+    <!--<a class="project-link" href="#">Check it out</a>-->
+  <!--</div>-->
+<!--</div>-->
