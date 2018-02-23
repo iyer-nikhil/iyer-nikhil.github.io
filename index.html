@@ -1,3 +1,10 @@
 ---
 layout: default
 ---
+
+{% for post in site.posts %}
+    <div class="contents">
+        <a href="{{ post.url | prepend: site.baseurl }}"><h4 class="post-title"> {{ post.title }}</h4></a>
+    </div>
+
+{% endfor %}
