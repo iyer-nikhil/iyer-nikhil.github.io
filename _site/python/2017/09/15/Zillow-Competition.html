@@ -13,34 +13,27 @@
   <!-- favicon -->
   <link rel="shortcut icon" href="">
 
-  <meta name="description" content="A blog on data science and analysis through projects">
+  <meta name="description" content="Finding what goes into an accurate property estimate relative to sale price">
 
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
     <body>
         <div id="particles-js">
-    <div class="header-post">
-        <h1>
-            <span class="site-title">Zillow Prize: Predicting Real Estate</span>
-            <span class="site-description" margin-top="30px"></span>
-        </h1>
-        <div class="header-icons">
-            <a aria-label="Send email" href="mailto:nick.s.iyer@gmail.com"><i class="icon fa fa-envelope"></i></a>
-            <a aria-label="My Github" target="_blank" href="https://www.github.com/nicksiyer"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-            <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/nicksiyer"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
-            <a aria-label="My Twitter" target="_blank" href="https://www.twitter.com/nicksiyer"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+  <div class="header-post">
+      <h1>
+        <span class="site-title">Zillow Prize: Predicting Real Estate</span>
+        <span class="site-description" margin-top="30px">Finding what goes into an accurate property estimate relative to sale price</span>
+      </h1>
+      <div class="header-links-post">
 
-            <!--<a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>-->
+        <a class="link" href="/" target="_self">Home</a>
+        <a class="link" href="/#about" target="_self">About</a>
+        <a class="link" href="/#projects" target="_self">Projects</a>
 
-        </div>
-        <div class="header-links">
-            <a class="link" href="/" data-scroll>Home</a>
-            <a class="link" href="/#projects" data-scroll>Back to Projects</a>
-            <a class="link" href="/resume.html">Resume/CV</a>
-        </div>
-    </div>
-    <a class="down" href="#scroll" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+      </div>
+  </div>
+  <a class="down" href="#scroll" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
 
         <section class ="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -65,8 +58,8 @@
 
 <p>For starters, I had to feature engineer something that would put me in a position to succeed. That started with examining certain features like the type of property below:</p>
 
-<p><!-- ![edit](/3steps/Image-1.jpg) -->
-   <img src="/3steps/Image-1.jpg" width="70%" class="center-image" /></p>
+<p><!-- ![edit](/assets/img/blog/3steps/Image-1.jpg) -->
+   <img src="/assets/img/blog/3steps/Image-1.jpg" width="70%" class="center-image" /></p>
 
 <p>On the left you can see how well Zillow was able to close the gap between their estimate and the final sale price of a home. Obviously they aren’t the best with every home, or they wouldn’t have this competition in the first place.
 You can see as part of that map that areas in green tend to be pretty accurate, but the area in yellow that is boxed in red happens to be a blob where their estimate tends to be weak and be very far from estimating the final sale price correctly.
@@ -74,26 +67,26 @@ By doing some feature engineering I was able to see that the type of property be
 
 <p>After weighting that with some level of significance in running a model (XGBoost) I was able to get into the top 800 of the competition while it was still around ~2500 people entered:</p>
 
-<p><!-- ![edit](/3steps/800thplace.png) -->
-   <img src="/3steps/800thplace.png" width="70%" class="center-image" /></p>
+<p><!-- ![edit](/assets/img/blog/3steps/800thplace.png) -->
+   <img src="/assets/img/blog/3steps/800thplace.png" width="70%" class="center-image" /></p>
 
 <p>I did do some slight tweaking to the model’s parameters and also found an interesting spot to potentially bifurcate the data. This is in the type of zoning for the property seen here:</p>
 
-<p><!-- ![edit](/3steps/image5.png) -->
-   <img src="/3steps/image5.png" width="70%" class="center-image" /></p>
+<p><!-- ![edit](/assets/img/blog/3steps/image5.png) -->
+   <img src="/assets/img/blog/3steps/image5.png" width="70%" class="center-image" /></p>
 
 <p>By using the type of zoning, I could see that those properties with pool zoning would vastly differ in sale price from the estimate. It didn’t just have to do with geographic location and I was better able to isolate this in my model.</p>
 
 <p>The biggest breakthrough came with running an average of various models with different weightings and node parameters. Using a combination of XGBoost and LightGBM by stacking (aka using in conjunction), I was able to bounce even higher in the competition to where I am today. The basic principle is below:</p>
 
-<p><!-- ![edit](/3steps/image3.png) -->
-   <img src="/3steps/image3.png" width="70%" class="center-image" /></p>
+<p><!-- ![edit](/assets/img/blog/3steps/image3.png) -->
+   <img src="/assets/img/blog/3steps/image3.png" width="70%" class="center-image" /></p>
 
 <p>This is a basic diagram for stacking. As you can see, by taking the training data, passing it through models, and taking various weights of those models, we can produce a better overall predictor which vaulted me to the spot I am at today.
 The exact combination of the models I did use are as follows:</p>
 
-<p><!-- ![edit](/3steps/image4.png) -->
-   <img src="/3steps/image4.png" width="70%" class="center-image" /></p>
+<p><!-- ![edit](/assets/img/blog/3steps/image4.png) -->
+   <img src="/assets/img/blog/3steps/image4.png" width="70%" class="center-image" /></p>
 
 <p>So far got into the <a href="https://www.kaggle.com/nicksiyer">top 11%</a>! But I’m still continually working at it. Thanks for tuning in and stick around for more to come as the second leg kicks off at midnight 10/3/2017!</p>
 

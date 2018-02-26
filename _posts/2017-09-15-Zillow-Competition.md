@@ -2,7 +2,7 @@
 layout: post
 title:  "Zillow Prize: Predicting Real Estate"
 date:   2017-09-15
-desc: "Finding what goes into an accurate property estimate relative to sale price"
+description: "Finding what goes into an accurate property estimate relative to sale price"
 keywords: "Zillow, housing, property, Kaggle, python, estimate, logerror"
 categories: [Python]
 tags: [Python,Data,Boosting]

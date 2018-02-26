@@ -19,4 +19,7 @@ avatar: /assets/img/avatar.jpg
 google-analytics:
   id: 106750457
 
+# Post settings
+img_path: /assets/img/blog
+
 exclude: ['package.json', 'src' , 'node_modules']
