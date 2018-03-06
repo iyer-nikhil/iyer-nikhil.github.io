@@ -1,5 +1,7 @@
 # Modified Particle Blog Jekyll Theme
 
+![Screenshot]({{ site.img_path}}/ss_sample.png)
+
 This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
 The Theme features:
@@ -19,7 +21,7 @@ This theme is free and open source software, distributed under the The MIT Licen
 
 ## Credits
 
-This theme was partially designed with the inspiration from these fine folks
+This theme was designed with the inspiration from these fine folks:
 - [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
 - [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
 - [Nathan Randecker](https://github.com/nrandecker/particle)

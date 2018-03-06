@@ -17,11 +17,11 @@ This line is relatively new, only open as of January 1st, 2017 for parts that go
 
 As you can see from the image below, it is relatively consistent goings for turnstiles for different days of the week:
 
-   <!-- ![edit]({{ site.img_path }}/3steps/img1g2.jpg) -->
-   <img src="{{ site.img_path }}/3steps/img1g2.jpg" width="70%" class="center-image"> 
+   <!-- ![edit]({{ site.img_path }}/mountains.jpg) -->
+   <img src="{{ site.img_path }}/mountains.jpg" width="70%" class="center-image"> 
      
 As you can see from these 4 weeks of data that I obtained, they follow a similar pattern, with ridership relatively slow on mondays, picking up through midweek, and dropping off by the weekend. It is fascinating to see that for some weeks, there is a jump from Saturday into Sunday but for some weeks, there is a dip. This might be due to attractions or certain weekend events that restaurants have in the area. I'd also like to see how street fairs in the area could potentially impact this graph.
-
+{{ site.img_path}}
 Here is another visual in the form of a bar graph to give you a much better side by side comparison of days in different weeks:
 
    <!-- ![Bar graph of subway entries for 86th St]({{ site.img_path }}/3steps/img1g3.jpg) -->
