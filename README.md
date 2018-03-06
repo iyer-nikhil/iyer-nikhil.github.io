@@ -1,6 +1,6 @@
 # Modified Particle Blog Jekyll Theme
 
-![Screenshot]({{ site.img_path}}/ss_sample.png)
+![Screenshot](ss_sample.png)
 
 This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
