@@ -1,4 +1,4 @@
-# Modified Particle Blog Jekyll Theme
+# My Website
 
 ![Screenshot](ss_sample.png)
 
