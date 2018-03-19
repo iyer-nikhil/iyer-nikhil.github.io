@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Article
+   ========================================================================== */
+
+.article {
+
+}
+
+.article__main {
+  max-width: 76rem; // 760px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+
+  > * {
+    margin-bottom: 1.8rem;
+  }
+
+  blockquote {
+    margin-left: -2.5rem;
+    width: calc(100% + 5rem);
+    padding: 2.5rem;
+    background: #3f3f43;
+  }
+
+  ul, ol {
+    margin-left: 40px;
+  }
+}

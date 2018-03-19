@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 body {
     margin: 0;
@@ -6,14 +6,14 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #00406e;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 article, aside, figcaption, figure, footer, header, nav, section {
     display: block;
 }
 h1, h2, h3, h4, stong {
     margin-top: 1em;
-    padding-top: 1em;
+    padding-top: 2em;
     line-height: 1.25;
     color: #3f3f43;
 }

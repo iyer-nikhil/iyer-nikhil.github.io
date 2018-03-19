@@ -1,8 +1,8 @@
-# Modified Particle Blog Jekyll Theme
+# My Website
 
-![Screenshot]({{ site.img_path}}/ss_sample.png)
+![Screenshot](ss_sample.png)
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+This is a simple and minimalist website generated with Jekyll and designed to show off my portfolio.
 
 The Theme features:
 
@@ -13,15 +13,14 @@ The Theme features:
 - BrowserSync
 - Font Awesome and Devicon icons
 - Google Analytics
-- Info Customization
 
 ## License
 
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+This website used free and open source software, distributed under the The MIT License.
 
 ## Credits
 
-This theme was designed with the inspiration from these fine folks:
+This theme was designed with the inspiration and adaptation from work by these fine folks:
 - [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
 - [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
 - [Nathan Randecker](https://github.com/nrandecker/particle)
