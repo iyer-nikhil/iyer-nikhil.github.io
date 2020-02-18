@@ -1,13 +1,13 @@
 # Site settings
-title: Nick S Iyer | Analyst
-description: A blog on data science and analysis through projects
+title: Nick S. Iyer | Data Scientist
+description: My portfolio of ideas
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.nicksiyer.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "www.nicksiyer.tech" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Nick S Iyer
-user_description: Started my journey with a B.S. in Mathematics & Actuarial Science from the State University of New York at Albany. Developed my technical abilities working for a daily fantasy sports publication and healthcare management organization. Recent graduate of Metis - a highly selective and immersive data science bootcamp. Currently looking for my next full time role merging my statistical learning knowledge with state-of-the-art implementation experience using cloud computing, Python and SQL. Born and raised in New York, I enjoy cooking at home on weekends and playing golf both competitively and recreationally.
-user_title: Analyst
+username: Nick S. Iyer
+user_description: B.S. in Mathematics & Actuarial Science from the State University of New York at Albany. Worked for numberfire, a daily fantasy sports publication, in DFS infancy. Moved into healthcare management, tracking metrics of patients and providers at ProHealth Care. Graduated from Metis bootcamp in 2017 and been working for The NPD Group, one of the top market research firms in the world. I specialize in processing and mining text data, NLP, and other statistical learning techniques. My state-of-the-art implementation experience using cloud computing, Python and SQL, turns problems into potential. Born and raised in New York, I enjoy cooking at home on weekends and playing golf both competitively and recreationally.
+user_title: Data Scientist
 email: nick.s.iyer@gmail.com
 twitter_username: nicksiyer
 github_username: nicksiyer
